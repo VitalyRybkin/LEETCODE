@@ -1,3 +1,3 @@
-### LEETCODE using PYTHON
+### LEETCODE solutions using PYTHON
 
-My LEETCODE problem list solutions with PYTHON
+My repository of solutions from LEETCODE problem list using PYTHON
