@@ -4,7 +4,7 @@ Write a function to find the longest common prefix string amongst an array of st
 If there is no common prefix, return an empty string "".
 """
 
-strs = ["flower","flow","flight"]
+strs = ["flower", "flow", "flight"]
 
 
 def longestCommonPrefix(strs: list[str]) -> str:
