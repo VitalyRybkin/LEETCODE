@@ -6,12 +6,12 @@ such that nums[i] == nums[j] and abs(i - j) <= k.
 # k = 3
 # nums = [1,0,1,1] # t
 # k = 1
-# nums = [1,2,3,1,2,3] # f
-# k = 2
+nums = [1,2,3,1,2,3] # f
+k = 2
 # nums = [4,1,2,3,1,5] # t
 # k = 3
-nums = [99,99]
-k = 2
+# nums = [99,99]
+# k = 2
 
 import time
 
@@ -19,7 +19,7 @@ def containsNearbyDuplicate(nums: list[int], k: int) -> bool:
 
         count_dict = {}
         for key, val in enumerate(nums):
-            if not val in count_dict:
+            if not val in count_dict.keys():
                 count_dict[val] = key
             else:
                 if abs(count_dict[val] - key) <= k:
